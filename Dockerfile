@@ -16,5 +16,6 @@ RUN unzip /tmp/chromedriver.zip chromedriver -d .
 RUN apt-get install -yqq xvfb
 
 # install requirements
+COPY requirements.txt /requirements.txt
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
