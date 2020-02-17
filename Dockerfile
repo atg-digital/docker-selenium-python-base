@@ -36,6 +36,9 @@ RUN echo $PATH
 # install xvfb
 RUN apt-get install -yqq xvfb
 
+# install Qt dependancy
+RUN apt install -yqq libxkbcommon-x11-0
+
 # install requirements
 COPY requirements.txt /requirements.txt
 RUN pip install --upgrade pip
