@@ -109,3 +109,6 @@ wrapt==1.11.2
 xlrd==1.2.0
 yapf==0.29.0
 zipp==2.1.0
+Deprecated==1.2.7
+PyGithub==1.47
+PyJWT==1.7.1
